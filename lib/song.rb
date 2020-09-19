@@ -10,10 +10,6 @@ class Song
     song_name = file.split(" - ")[1]
     artist = file.split(" - ")[0]
     song = self.new(song_name)
-    #this is calling the #artist_name=
-    #it is a writer method that assigns that variable to artist
-    #you are not just assigning the string to artist, because you want the artist attribute to be an artist instance instead
-    song.artist_name = artist
     song
   end
 
